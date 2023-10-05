@@ -5,7 +5,7 @@ const ImageComponent = (props) => {
   const { imageSrc } = imageDetails;
   return (
     <div>
-      <img alt="one" className="image-styles" src={imageSrc} />
+      <img alt={imageSrc} className="image-styles" src={imageSrc} />
     </div>
   );
 };
